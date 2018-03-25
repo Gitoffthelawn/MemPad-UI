@@ -1,0 +1,282 @@
+; -------------------------------------------------------------------------------
+; English Language (en-us) User Interface for MemPad
+;
+; Created by Gitoffthelawn
+;
+; Contact me for your user interface (UI), usability (UX),
+;   testing, and documentation needs at:
+;     Email: gitoffthelawn@tuta.io
+;       and
+;     https://github.com/Gitoffthelawn/Contact-Gitoffthelawn
+;
+;
+; Goals: Clear, concise, consistent.
+;
+;
+; Copyright (c) 2015-2018 Gitoffthelawn.  All rights reserved.
+;
+; Version 3.63.01 (updated 2018/03/25)
+; Available at: https://github.com/Gitoffthelawn/MemPad-UI
+;
+;
+; Compatible with MemPad v3.63
+; Available at: http://www.horstmuc.de/wmem.htm
+;
+;
+; Based on original translation by unknown author.
+; Licensed for use with free (no cost, including handling/shipping/distribution)
+; products that are released without any feature limitations and not bundled
+; with other products.
+;
+; No responsibility assumed for any liabilities.
+; There is no warranty or other guarantee of fitness for any purpose.
+; Use at your own risk.
+;
+; Many thanks to Horst Schaeffer for MemPad, and to the MemPad community.
+;
+; -------------------------------------------------------------------------------
+
+
+; ++ Main Menu ++
+
+01=New Window
+02=For '$' Files
+03=For Other File Group...
+167=Language
+05=Open (External)...
+100=Quick Launch
+06=Exit
+
+07=&File
+08=Open
+09=Previous
+10=New (.$)
+11=Read-Only
+12=Encrypt
+13=Save
+14=Re&load
+15=Restore &Backup
+
+16=&Page
+17=Find...
+18=Find Next
+19=Find Previous
+20=Remember Position
+21=Back
+22=Forward
+23=Favorite
+24=This Page
+25=Disable
+26=Lock Page
+27=Add Diary Entry
+28=Background Color
+29=This Page...
+30=Reset to Default
+
+31=&Export
+32=Single Page
+33=Page Structure
+34=All
+35=Re-import Page
+
+36=Setti&ngs
+37=Font
+38=Pages...
+39=Index...
+40=Background Color
+41=Page Default...
+42=Index...
+43=Both...
+44=Show Toolbar
+45=Show Index [Ctrl+Win]
+46=Hotkey...
+47=Minimize to &System Tray
+48=Exit on ESC
+49=Minimize on ESC
+50=Always on Top
+51=&Lock Pages by Default
+52=Auto-Save (every $ minutes)
+53=Do Not Create Backups
+
+54=Help
+55=About
+04=Data Folder
+171=Program Folder
+;56=Instance
+
+; ++ Index Menu ++
+
+57=New Sibling After
+58=New Sibling Before
+59=New Child
+60=Delete
+61=Cut (to Move)
+62=Rename
+63=Get Page Path
+64=Move Down
+65=Move Up
+66=To Parent Level
+67=To Child Level
+68=Collapse All
+69=Expand All
+168=Sort Siblings
+169=Ascending
+170=Descending
+
+; ++ Text Menu ++
+
+70=Cut
+71=Copy
+72=Paste
+73=Select All
+74=Upper Case
+75=Lower Case
+173=Wide Spacing
+76=Undo
+77=Redo
+78=Insert Date/Time
+79=Insert Page Link
+80=Insert File Link...
+
+; ++ New button (4 alternatives, semicolon separated)
+
+81=New;Paste;From File;Import
+
+; ++ New/insert mode menu ++ 
+
+82=New Page
+83=Paste:
+84=Page from &Text File
+85=Import Page
+176=Import
+177=Source File
+
+; ++ Button ToolTips ++
+
+86=Select Insert Mode/Source
+87=Insert Sibling (Right-click: Insert Before)
+88=Insert Child
+89=Cut Page (to Insert/Add Elsewhere)
+90=To Move $: Select Target, then Insert/Add
+91=Delete Page
+92=Move Up
+93=Move Down
+94=Move to Parent Level as Next Page
+95=Move to Child Level of Preceding Page
+96=Collapse Unused Pages (Right-click: Expand All)
+97=Find...
+98=Find Next (Right-click: Find Previous)
+99=Word Wrap
+
+; ++ Generic dialog box ++
+
+101=Error
+102=Warning
+103=Info
+104=OK
+105=Cancel
+
+; ++ Window: File group request ++
+
+178=Open MemPad file
+106=MemPad file group (type):
+107=Remove unused INI files
+
+; ++ Window: Encryption ++
+
+108=compatible
+109=Password:
+110=Repeat:
+111=Encryption Disabled
+
+; ++ Dialog: Encryption, read/write ++
+
+112=Insufficient memory
+113=Decryption failed
+114=Note: If the file is not encrypted,
+115=you may have tried to load an invalid file format.
+116=Not a valid MemPad file
+117=Encryption failed
+118=
+
+; ++ Window Export ++
+
+119=Export to:
+172=Page name as file name
+120=Title format (use dollar sign for title text)
+121=Level symbol (multiple)
+122=Open the file
+123=by extension
+124=with program:
+
+; ++ Message: Diary ++
+
+125=First create a page
+
+; ++ Window: Find ++
+
+175=Find
+126=Keep open
+127=In pages
+128=In index
+129=Match case
+130=Whole word
+131=Find:
+132=Reset
+133=From top 
+134=This page only
+135=Next
+136=Previous
+137=Replace
+138=With:
+139=Auto-find next match
+140=No (more) matches
+
+; ++ Dialog: Files ++
+
+141=Save File
+142=File Name:
+143=File already exists!  Overwrite?
+144=Cannot create file
+145=Cannot write to file
+146=
+147=Proceed without saving?
+148=Open File
+149=Save changes?
+150=Program
+174=Saved
+
+; ++ Dialog: Backup ++
+
+151=Cannot make backup
+152=There is no backup file
+153=This will restore the last backup
+154=Cannot restore backup
+155=Also delete backup?
+
+; ++ Dialog: Reload ++
+
+156=This will reload all pages from the file
+157=Cannot reload file
+
+; ++ Page Handling ++
+
+158=Click either [+] button (or press Alt+Insert) to create a page
+159=Create file link
+160=Delete this page and all its child pages?
+161=Delete this page?
+162=Insert a text file
+163=Cannot load page
+
+; ++ Window: Hotkey ++
+
+179=Hotkey Assignment
+164=Enable key combination to activate/minimize MemPad
+165=Backspace disables hotkey
+166=Not allowed
+
+; ++ Messages: Import ++
+
+180=Too many levels
+181=Invalid import file
+182=Invalid sub-page level
