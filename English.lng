@@ -15,11 +15,11 @@
 ;
 ; Copyright (c) 2015-2018 Gitoffthelawn.  All rights reserved.
 ;
-; Version 3.63.01 (updated 2018/03/25)
+; Version 3.64.01 (updated 2018/07/01)
 ; Available at: https://github.com/Gitoffthelawn/MemPad-UI
 ;
 ;
-; Compatible with MemPad v3.63
+; Compatible with MemPad v3.64
 ; Available at: http://www.horstmuc.de/wmem.htm
 ;
 ;
@@ -43,7 +43,7 @@
 02=For '$' Files
 03=For Other File Group...
 167=Language
-05=Open (External)...
+05=Open External...
 100=Quick Launch
 06=Exit
 
@@ -90,6 +90,7 @@
 44=Show Toolbar
 45=Show Index [Ctrl+Win]
 46=Hotkey...
+183=Minimize on Exit
 47=Minimize to &System Tray
 48=Exit on ESC
 49=Minimize on ESC
@@ -272,7 +273,7 @@
 
 179=Hotkey Assignment
 164=Enable key combination to activate/minimize MemPad
-165=Backspace disables hotkey
+165=
 166=Not allowed
 
 ; ++ Messages: Import ++
